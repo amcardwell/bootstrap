@@ -428,7 +428,7 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.multiMap', 'ui.bootstrap.sta
             'class': 'modal-backdrop',
             'ng-style': '{\'z-index\': 1040 + (index && 1 || 0) + index*10}',
             'uib-modal-animation-class': 'fade',
-            'modal-in-class': 'in'
+            'modal-in-class': 'active'
           });
           if (modal.backdropClass) {
             backdropDomEl.addClass(modal.backdropClass);
